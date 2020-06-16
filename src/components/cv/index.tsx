@@ -398,7 +398,7 @@ const PageA4 = styled.div`
   display: flex;
   font-family: Roboto;
   width: 297mm;
-  height: 420mm;
+  height: 419.9mm;
 `;
 const Avatar = styled.img`
   width: 250px;
@@ -444,7 +444,7 @@ const LeftTitle = styled.div`
 
 const RightSide = styled.div`
   flex: 2;
-  padding: 40px;
+  padding: 40px 40px 0 40px;
   > p {
   }
 `;
