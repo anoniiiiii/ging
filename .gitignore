@@ -117,7 +117,7 @@ dist
 /build
 
 /AWS-Architecture-Icons_SVG_20200430
-
+/.idea
 # misc
 .DS_Store
 .env.local
