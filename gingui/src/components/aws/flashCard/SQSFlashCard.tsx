@@ -2,7 +2,6 @@ import React from "react";
 import AwsFlashCard from "./AWSFlashCard";
 import {Server, SQS, No, SNS} from '../icons';
 import {Icon, IconContainer, ScrollContainer, Content} from './FlashCardHelper';
-import {Popover} from 'antd';
 import SQSStandardQueue from './SQSStandardQueue';
 import SQSFifoQueue from './SQSFifoQueue';
 import ModalClick from "../../common/ModalClick";

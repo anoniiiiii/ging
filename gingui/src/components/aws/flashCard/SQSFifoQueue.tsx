@@ -1,7 +1,6 @@
 import React from "react";
 import AwsFlashCard from "./AWSFlashCard";
-import {Server, SQS, No, SNS} from '../icons';
-import {Icon, IconContainer, ScrollContainer, Content} from './FlashCardHelper';
+import {ScrollContainer, Content} from './FlashCardHelper';
 
 const comp = () => {
     return <AwsFlashCard title='SQS FIFO Queue'>

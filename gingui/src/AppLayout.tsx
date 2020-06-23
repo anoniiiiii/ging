@@ -11,7 +11,7 @@ import AWS from "./components/aws";
 import {Layout, Menu, Breadcrumb} from 'antd';
 import styled from "styled-components";
 
-const {Header, Content, Footer} = Layout;
+const {Header, Content} = Layout;
 
 type TProps = {
     children?: ReactNode
@@ -20,9 +20,8 @@ type TState = {};
 
 class AppLayout extends React.Component<TProps, TState> {
     render() {
-        const {location} = this.props;
         return (<Layout>
-            <UnPrintHeader>
+        <UnPrintHeader>
                 <Menu
                     theme="dark" mode="horizontal"
                     defaultSelectedKeys={['2']}>

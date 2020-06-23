@@ -78,7 +78,7 @@ export default class CVPage1 extends Component<TProps, TState> {
               endDate="Mar 2020"
               company="Tenpoint7"
               position="Fullstack Developer"
-              logo={<img src={Tenpoint7Logo}></img>}
+              logo={<img src={Tenpoint7Logo} alt={'Tenpint7'}></img>}
             >
               <ProjectExperience
                 projectName="Addy (https://addy.ai/)"
@@ -113,7 +113,7 @@ export default class CVPage1 extends Component<TProps, TState> {
               startDate="Jan 2016"
               endDate="Jun 2019"
               company="SmartOSC"
-              logo={<img src={SmartOSCLogo} />}
+              logo={<img src={SmartOSCLogo} alt={'SmartOSC'} />}
             >
               <ProjectExperience
                 projectName="Singapore Economic Development Board (EDB).(https://www.edb.gov.sg/)"
@@ -216,7 +216,7 @@ export default class CVPage1 extends Component<TProps, TState> {
               endDate="Dec 2015"
               company="PycoGroup"
               position="Senior Java"
-              logo={<img src={PycoGroupLogo} />}
+              logo={<img src={PycoGroupLogo} alt={'PycoGroup'}/>}
             >
               <ProjectExperience
                 projectName="Godzilist V2"
@@ -393,7 +393,6 @@ export default class CVPage1 extends Component<TProps, TState> {
     );
   }
 }
-const leftSideWidth = 300;
 const PageA4 = styled.div`
   display: flex;
   font-family: Roboto;
