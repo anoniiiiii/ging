@@ -1,4 +1,4 @@
-import React, { Component, ReactNode, FC } from "react";
+import React, { Component, ReactNode} from "react";
 import styled from "styled-components";
 
 type TProps = {

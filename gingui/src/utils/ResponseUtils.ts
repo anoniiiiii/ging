@@ -24,7 +24,7 @@ const styleResponse = (field: string, value: ResponseValue) => {
             return;
         }
         const _value = _.get(value, key);
-        let cssValue = typeof _value === 'number' ? _value + 'px' : _value;
+        const cssValue = typeof _value === 'number' ? _value + 'px' : _value;
         if (!minValue) {
             minValue = `${field}: ${cssValue};`;
         }

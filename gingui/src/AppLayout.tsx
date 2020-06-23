@@ -4,11 +4,10 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import {withRouter, matchPath, RouteComponentProps} from "react-router";
-import {Affix} from "antd";
+import {withRouter, RouteComponentProps} from "react-router";
 import CV from './components/cv';
 import AWS from "./components/aws";
-import {Layout, Menu, Breadcrumb} from 'antd';
+import {Layout, Menu} from 'antd';
 import styled from "styled-components";
 
 const {Header, Content} = Layout;
@@ -23,8 +22,7 @@ class AppLayout extends React.Component<TProps, TState> {
         return (<Layout>
         <UnPrintHeader>
                 <Menu
-                    theme="dark" mode="horizontal"
-                    defaultSelectedKeys={['2']}>
+                    theme="dark" mode="horizontal">
                     <Menu.Item key="1"><Link to="/">Home</Link></Menu.Item>
                     <Menu.Item key="2"><Link to="/cv">CV</Link></Menu.Item>
                     <Menu.Item key="3"><Link to="/AWS">AWS</Link></Menu.Item>

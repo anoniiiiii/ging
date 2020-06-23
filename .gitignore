@@ -126,3 +126,4 @@ dist
 
 package-lock.json
 /gingfunc/.idea/
+/gingui/build/

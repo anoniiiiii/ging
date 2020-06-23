@@ -8,7 +8,6 @@ import AppLayout from './AppLayout';
 
 class App extends React.Component<any, any> {
     render() {
-        console.log(JSON.stringify(this.props));
         return (
             <Router>
                 <AppLayout></AppLayout>
