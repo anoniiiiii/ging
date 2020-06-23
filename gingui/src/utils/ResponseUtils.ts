@@ -1,4 +1,3 @@
-import {ResponseValue} from "../types/GingReactType";
 import _ from 'lodash';
 
 const breakPoints: { xs: number, sm: number, md: number, lg: number, xl: number, xxl: number } = {

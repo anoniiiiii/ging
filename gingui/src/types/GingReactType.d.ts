@@ -1,4 +1,4 @@
-export type ResponseValue = {
+declare type ResponseValue = {
     xs?: number | string,
     sm?: number | string,
     md?: number | string,

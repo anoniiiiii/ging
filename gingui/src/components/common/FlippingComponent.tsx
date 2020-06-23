@@ -1,6 +1,5 @@
 import React, {Component, ReactNode} from 'react';
 import styled from 'styled-components';
-import {ResponseValue} from "../../types/GingReactType";
 import ResponseUtils from "../../utils/ResponseUtils";
 
 type TType = {
