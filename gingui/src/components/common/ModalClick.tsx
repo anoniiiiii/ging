@@ -2,6 +2,7 @@ import React from 'react';
 import {RenderFunction} from "antd/lib/_util/getRenderPropValue";
 import {Modal} from 'antd';
 import styled from "styled-components";
+import {CloseCircleOutlined} from '@ant-design/icons';
 
 type TProps = {
     title?: React.ReactNode | RenderFunction;
@@ -38,15 +39,16 @@ class ModalClick extends React.Component<TProps, TState> {
         return (
             <>
                 <div onClick={this.showModal}>{children}</div>
-                <Modal
+                <ModalStyled
+                    closeIcon={<CloseCircleOutlined/>}
                     width={540}
                     title={title}
                     visible={this.state.visible}
-                    onOk={this.handleOk}
+                    footer={null}
                     onCancel={this.handleCancel}
                 >
                     {content}
-                </Modal>
+                </ModalStyled>
             </>
         );
     }
@@ -54,6 +56,10 @@ class ModalClick extends React.Component<TProps, TState> {
 
 export default ModalClick;
 
-// const  ModalStyled = styled(Modal)`
-//
-// `
+const ModalStyled = styled(Modal)`
+  && {
+      .ant-modal-body{
+          padding: 48px 24px 24px 24px;
+      }
+  }
+`
