@@ -29,7 +29,7 @@
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "start": "react-scripts start",
-    "build": "pwd; react-scripts build",
+    "build": "pwd; react-scripts build; ls",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
